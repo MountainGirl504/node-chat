@@ -6,7 +6,7 @@ const express = require ('express'),
       
       
 app.use(bodyParser.json())     
-app.use(express.static("__dirname + '/../public/build'"));
+app.use(express.static('/../public/build'));
 
 const messagesBaseUrl = "/api/messages";
 
